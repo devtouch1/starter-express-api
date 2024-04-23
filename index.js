@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs')
-const url = 'mongodb+srv://higor:billionaire@clusterrobo.uyxjgak.mongodb.net/galeria?retryWrites=true&w=majority';
+const url = 'YOUR MONGODB';
 
 // Configurar o armazenamento das imagens usando o Multer
 const upload = multer({ storage: multer.memoryStorage() });
